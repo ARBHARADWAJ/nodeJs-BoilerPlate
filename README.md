@@ -2,7 +2,7 @@
 
 # 🧠 Full-Stack Ready Node.js Boilerplate
 
-This is a **production-ready backend boilerplate** built using **Node.js + Express + MongoDB**, designed for learning, collaboration, and solid project foundation.
+This is a **production-ready backend boilerplate** built using **Node.js + Express + MongoDB(Docker)**, designed for learning, collaboration, and solid project foundation.
 
 Built especially for **mid-level devs** who want to **truly understand what they build**, this project comes with clear structure, working routes, logging, authentication, and powerful tools.
 
@@ -46,7 +46,7 @@ I have:
 - **MongoDB (via Mongoose)**
 - **Docker (Mongo containerized)**
 - **JWT (for auth)**
-- **Helmet / CORS / Rate Limiting**
+- **Helmet / CORS **
 - **Winston (logging)**
 - **express-validator (validation)**
 - **Swagger UI (API Docs)**
@@ -78,7 +78,7 @@ I have:
 To spin up MongoDB:
 
 ```bash
-docker-compose up -d
+docker-compose up -d - (or) in vs code direct right click and click on compose up (if docker is installed in your device and in vs code as well)
 ```
 
 This will launch the default `mongo` container locally.
@@ -100,7 +100,7 @@ This will launch the default `mongo` container locally.
 View Swagger Docs:
 
 ```
-http://localhost:5000/api-docs
+http://localhost:3000/api-docs
 ```
 
 ---
