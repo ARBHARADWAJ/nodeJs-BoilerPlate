@@ -130,3 +130,9 @@ dist
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+# Ignore README files
+README
+README.md
+readme.md
